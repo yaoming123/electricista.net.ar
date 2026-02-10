@@ -1005,7 +1005,10 @@
             nav.classList.toggle('active');
         });
     });
-</script><script>
+</script>
+ 
+
+<script>
     const modal = document.getElementById("modal-aviso");
     const modalTexto = document.getElementById("modal-texto");
     const modalCancelar = document.getElementById("modal-cancelar");
@@ -1038,7 +1041,7 @@
     if (botonLlamar) {
         botonLlamar.addEventListener("click", function (e) {
             e.preventDefault();
-            mostrarModal("⚠️ No hay un  electricista  en este espacio publicitario. Este botón es informativo.", null);
+            mostrarModal("⚠️ No hay un electricista en este espacio publicitario. Este botón es informativo.", null);
         });
     }
 
@@ -1047,7 +1050,7 @@
     if (botonWhatsApp) {
         botonWhatsApp.addEventListener("click", function (e) {
             e.preventDefault();
-            mostrarModal("⚠️ No hay un  electricista  en este espacio publicitario. Si continuas serás redirigido al WhatsApp de serviciosweb.net.ar a modo de ejemplo (No respondemos consultas relacionadas con servicios solo ofrecemos publicidad).", this.href);
+            mostrarModal("⚠️ No hay un electricista en este espacio publicitario. Si continuas serás redirigido al WhatsApp de serviciosweb.net.ar a modo de ejemplo (No respondemos consultas relacionadas con servicios solo ofrecemos publicidad).", this.href);
         });
     }
 
@@ -1056,7 +1059,7 @@
     botonesServicios.forEach(boton => {
         boton.addEventListener("click", function (e) {
             e.preventDefault();
-            mostrarModal("⚠️ No hay un  electricista  en este espacio publicitario.\nLos servicios son una demo. Si continuas serás redirigido al WhatsApp de serviciosweb.net.ar a modo de ejemplo (No respondemos consultas relacionadas con servicios solo ofrecemos publicidad).", this.href);
+            mostrarModal("⚠️ No hay un electricista en este espacio publicitario.\nLos servicios son una demo. Si continuas serás redirigido al WhatsApp de serviciosweb.net.ar a modo de ejemplo (No respondemos consultas relacionadas con servicios solo ofrecemos publicidad).", this.href);
         });
     });
 
